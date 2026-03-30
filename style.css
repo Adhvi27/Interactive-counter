@@ -13,3 +13,14 @@ button {
   margin: 10px;
   padding: 10px 20px;
 }
+#gems {
+  font-size: 30px;
+  margin: 20px;
+  color: red;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
