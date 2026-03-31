@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Counter App</title>
+  <title>Gem Catch Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div id="gems">💎</div>
+  <h1 id="status">Level: 1</h1>
 
-<button id="inc">Collect Gem</button>
-<button id="dec">Remove Gem</button>
-<button id="reset">Reset</button>
-  <button id="inc">+</button>
-  <button id="dec">-</button>
-  <button id="reset">Reset</button>
+  <h2 id="score">Score: 0</h2>
+  <h3 id="timer">Time: 60</h3>
+
+  <div id="gameArea"></div>
+
+  <button onclick="startGame()">Start Game</button>
 
   <script src="script.js"></script>
 </body>
